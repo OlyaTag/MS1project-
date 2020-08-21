@@ -2,24 +2,27 @@
 
 /*-----------------------------Colors*/
 .bg-color-name-title{
-    background-color:#676767;
+    background-color:#6f747c;
 }
 
 .ui-menu-color-home{
-    background-color: #e67e22;
+    background-color: #cd9a00c7;
 }
 .ui-menu-color-about{
-    background-color: #9b59b6;
+    background-color: #cd5f04;
 }
 .ui-menu-color-club{
-    background-color: #3498db;
+    background-color: #631002fb;
 }
 .ui-menu-color-gallery{
-    background-color: #525252;
+    background-color: #251e1e;
 }
 .bg-color-three-reasons {
     background-color: #fff;
 
+}
+.bg-color-club {
+    background-color: #fff;
 }
 
 /*-----------------------------Special paddings/margins/text */
@@ -50,6 +53,13 @@ h1, h2, h3, h4 {
     font-weight: 300;
     margin-top: 25px;
     margin-bottom: 40px;
+}
+.video {
+    font-family: "Open Sans",sans-serif;
+    font-weight:200;
+    color:#6f747c;
+    margin-top: 25px;
+    margin-bottom: 30px;
 }
 
 /*-----------------------------Heading*/
@@ -87,6 +97,7 @@ header{
     margin-bottom: 90px;
     color:#fff;
 }
+
 
 .list-inline-item:not(:last-child){
     margin: 0;
@@ -137,7 +148,7 @@ header{
 
 /*-----------------------------Footer */
 footer {
-    background-color: #525252;
+    background-color: #6f747c;
     color: #fafafa;
     min-height: 120px;
     margin: 0;
@@ -153,7 +164,7 @@ footer {
     -o-transition: all 0.35s ease-in-out;
 }
 .cv-pdf i:hover {
-    color: #e84610;
+    color: #8f3d03;
 }
 .social-links {
     padding-bottom: 15px;
@@ -175,8 +186,54 @@ footer {
 
 }
 .social-links li a i:hover {
-    background-color: #e84610;
+    background-color: #8f3d03;
 }
 #footer-details {
     padding: 20px;
 }
+
+/*-----------------------------Three Reasons */
+.three-reasons-icon {
+    font-size: 26px;
+    color:#8f3d03;
+}
+.tree-reasons-heading {
+    margin-bottom: 15px;
+}
+
+.gallery-img {
+    width: 100% \9;
+}
+/*-----------------------------Club Contact Form */
+.club-heading {
+    font-family: "Merriweather", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 20px;
+
+}
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #fafafa;
+    background-color:#631002fb 
+}
+
+/*-----------------------------Media Queries*/
+
+@media(min-width: 992px) {
+   .center-form {
+    padding-top: 30px;
+    min-height: 240px;
+    margin: 0 auto;
+    max-width: 50%;
+} 
+}
+
+
+
