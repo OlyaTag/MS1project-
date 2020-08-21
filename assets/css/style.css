@@ -2,7 +2,10 @@
 
 /*-----------------------------Colors*/
 .bg-color-name-title{
-    background-color:#6f747c;
+    background-color:#727f92;
+}
+.bg-color-intro-info{
+    background-color: #e1edff;
 }
 
 .ui-menu-color-home{
@@ -17,12 +20,17 @@
 .ui-menu-color-gallery{
     background-color: #251e1e;
 }
-.bg-color-three-reasons {
+.bg-color-tasting {
     background-color: #fff;
 
 }
 .bg-color-club {
     background-color: #fff;
+}
+.em {
+    color:#8f3d03;
+    font-weight: 500;
+    letter-spacing: 2px;
 }
 
 /*-----------------------------Special paddings/margins/text */
@@ -60,6 +68,15 @@ h1, h2, h3, h4 {
     color:#6f747c;
     margin-top: 25px;
     margin-bottom: 30px;
+}
+
+
+
+.about-sub {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    font-size: 26px;
+    color: #251e1e;
 }
 
 /*-----------------------------Heading*/
@@ -193,11 +210,11 @@ footer {
 }
 
 /*-----------------------------Three Reasons */
-.three-reasons-icon {
+.tasting-icon {
     font-size: 26px;
     color:#8f3d03;
 }
-.tree-reasons-heading {
+.tasting-heading {
     margin-bottom: 15px;
 }
 
