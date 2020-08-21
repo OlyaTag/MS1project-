@@ -1,5 +1,5 @@
 
-[View the live project here.](https://8000-f350dad0-a295-49b1-88d3-c71e8be73f0c.ws-eu01.gitpod.io/gallery.html)
+[View the live project here.](https://8000-f350dad0-a295-49b1-88d3-c71e8be73f0c.ws-eu01.gitpod.io/index.html)
 
 This is the marketing website for Stuard Douglas whisky. It is designed to be responsive and accessible on a range of devices, making it easy to navigate for people interested in finding out more about this brand.
 
